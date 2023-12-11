@@ -1,0 +1,118 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html,body{
+ height: 100%;
+ width: 100%;
+}
+
+#main{
+ height: 100%;
+ width: 100%;
+ background-color:  hsla(231, 76%, 45%, 0.424);
+ display: flex;
+}
+
+#part1{
+ height:100%; 
+ width: 26%;
+ /*background-color: red;*/
+}
+
+#part2{ 
+ height:100%; 
+ width: 67%;
+ background-color: rgb(120, 14, 251);
+ background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9kZWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+ background-size: cover;
+ background-position: center;
+}  
+
+#overle{
+ height: 100%;
+ width: 100%;
+ background-color:rgba(0, 0, 0, 0.557);
+}
+
+#part3{
+ height:100%; 
+ width: 7%;
+ /*background-color: rgb(14, 245, 30);*/
+}
+
+#text-div{
+ position: absolute;
+ width: 400px;
+ left: 7%;
+ top:50%;
+ transform: translate(0,-50%);
+}
+
+#text-div h1{
+ letter-spacing: 4px;
+font-size: 90px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 85px;
+color: #ffffffde;
+}
+
+#small-img-div{
+ height: 400px;
+ width: 300px;
+background-size: cover;
+background-position: center;
+ background-image: url(https://images.unsplash.com/photo-1577912931989-cf038df56a56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fG1vZGVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+ position: absolute;
+ top: 50%;
+ right: 5%;
+ transform: translate(0,-50%);
+}
+
+#overlay-in{
+ height: 100%;
+ width: 100%;
+ background-color:rgba(14, 18, 250, 0.14);
+}
+
+#vertical-text{
+ position: absolute;
+ transform: rotate(90deg);
+ transform-origin:0% 0% ;
+ right: -30%;
+}
+
+#vertical-text h1{
+ text-transform: uppercase;
+ letter-spacing: 15px;
+ font-size: 70px;
+ font-weight: 900;
+ color: transparent;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ -webkit-text-stroke-width: 2px;
+ -webkit-text-stroke-color: #fff;
+}
+
+#nav{
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 450px;
+ left:7%;
+ top: 5%;
+}
+
+#nav img{
+ height: 60px;
+}
+
+#nav h5{
+ font-size:20px;
+ color: #fff;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
